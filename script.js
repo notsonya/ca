@@ -75,7 +75,7 @@ let sketch = function (p) {
         }
 
         if (!cells[i][j].aliveNow) {
-          p.fill("#000000");
+          p.fill("#00FFFF);
           p.rect(i * cellWidth, j * cellHeight, cellWidth, cellHeight);
         }
       }
